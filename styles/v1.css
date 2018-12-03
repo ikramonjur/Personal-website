@@ -1,0 +1,94 @@
+nav ul {
+  background-color: #000000;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  font-family: sans-serif, arial;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  font-family: sans-serif, arial;
+  color:white;
+}
+
+h2 {
+  font-family: sans-serif, arial;
+  color: white;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+  font-family: sans-serif, arial;
+}
+
+body {
+  background-color: #b8b8b8;
+}
+
+.para {
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+  font-size: 20px;
+  font-family: sans-serif, arial;
+  border-style: outset;
+  color: black;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.projectpara {
+  background-color: white;
+  padding:5px;
+  margin: 30px;
+  font-size: 20px;
+  font-family: sans-serif, arial;
+  border-style: outset;
+  color: black;
+  font-weight: bold;
+  line-height: 2.0;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.BW {
+  background-color: black;
+  color: white;
+  font-style: normal;
+  padding: 5px;
+}
+
+.homeimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:50%
+}
+
+.projectimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.source
+{
+  text-align: center;
+}
