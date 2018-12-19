@@ -72,8 +72,8 @@ body {
 
 .para {
   background-color: white;
-  padding: 30px;
-  margin: 30px;
+  padding: 2%;
+  margin: 2%;
   font-size: 20px;
   font-family: sans-serif;
   /* border-style: outset; */
@@ -87,25 +87,6 @@ body {
   font-family: 'Courier New', Courier, monospace;
   color: #268b45
 }
-/* .txt-rotate {
-  font-family: monospace;
-  letter-spacing: .15em;
-  margin: 0 auto;
- overflow: auto;
- white-space: no-wrap;
- border-right: .15em solid orange;
- animation: typing 3.5s steps(40, end),
- blinking-cursor .5s step-end infinite;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blinking-cursor {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-} */
 
 .projectpara {
   /* background-color: white; */
@@ -133,8 +114,8 @@ body {
 
 .homeimg {
   display: block;
-  margin-left: 5%;
-  margin-right: auto;
+  margin-left: 4%;
+  margin-right: 2%;
   margin-bottom: 5%;
   float: left;
   width: 40%;
@@ -142,9 +123,9 @@ body {
 }
 
 .projectimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 45%
 }
 
 .source
