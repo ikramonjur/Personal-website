@@ -1,5 +1,5 @@
 nav ul {
-  background-color: #000000;
+  /* background-color: black; */
   padding: 10px;
 }
 
@@ -16,15 +16,29 @@ nav ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+nav a:hover {
+  background-color: #c69de9;
+  color: black;
+}
+
+h2 a {
+  text-decoration: none
+}
+
+.social-icons {
+  display: inline-block;
+  float: right
+}
 
 h1 {
   text-align: center;
   margin: 40px;
-  font-family: sans-serif, arial;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:white;
+  font-size: 70px;
 }
 
-h2 {
+h2, h3 {
   font-family: sans-serif, arial;
   color: white;
   padding: 5px;
@@ -33,13 +47,27 @@ h2 {
   text-align: center;
 }
 
+
 .project {
   text-align: center;
   font-family: sans-serif, arial;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  /* text-align: center; */
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 
 body {
-  background-color: #b8b8b8;
+  background-color: #c3cdcc;
 }
 
 .para {
@@ -47,20 +75,45 @@ body {
   padding: 30px;
   margin: 30px;
   font-size: 20px;
-  font-family: sans-serif, arial;
-  border-style: outset;
+  font-family: sans-serif;
+  /* border-style: outset; */
   color: black;
   line-height: 1.5;
-  font-weight: bold;
+  /* font-weight: bold; */
+  float: right;
+  width: 45%
+}
+.txt-rotate {
+  font-family: 'Courier New', Courier, monospace;
+  color: #268b45
+}
+/* .txt-rotate {
+  font-family: monospace;
+  letter-spacing: .15em;
+  margin: 0 auto;
+ overflow: auto;
+ white-space: no-wrap;
+ border-right: .15em solid orange;
+ animation: typing 3.5s steps(40, end),
+ blinking-cursor .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+} */
+
 .projectpara {
-  background-color: white;
+  /* background-color: white; */
   padding:5px;
   margin: 30px;
   font-size: 20px;
   font-family: sans-serif, arial;
-  border-style: outset;
+  /* border-style: outset; */
   color: black;
   font-weight: bold;
   line-height: 2.0;
@@ -69,17 +122,23 @@ body {
 }
 
 .BW {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  color: #d642e8;
   font-style: normal;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
   padding: 5px;
+
 }
 
 .homeimg {
   display: block;
-  margin-left: auto;
+  margin-left: 5%;
   margin-right: auto;
-  border-radius:50%
+  margin-bottom: 5%;
+  float: left;
+  width: 40%;
+  /* border-radius:50% */
 }
 
 .projectimg {
