@@ -132,6 +132,11 @@ body {
   width: 45%
 }
 
+.projectimgcenter {
+  margin-left: 30%;
+  margin-right: 40%;
+}
+
 .source
 {
   text-align: center;
