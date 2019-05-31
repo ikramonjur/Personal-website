@@ -127,14 +127,16 @@ body {
 }
 
 .projectimg {
-  margin-left: 2%;
+  margin-left: 12%;
   margin-right: 2%;
-  width: 45%
+  margin-bottom: 5%;
+  width: 30%
 }
 
 .projectimgcenter {
   margin-left: 30%;
   margin-right: 40%;
+  margin-bottom: 5%;
 }
 
 .source
